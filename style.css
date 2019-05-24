@@ -1,14 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 p {
+  font-family: serif;
   margin-bottom: 12px;
 }
 
 h1,h2,h3 {
+  font-family: sans-serif;
   font-weight: 400;
 }
 
 h1 {
   font-size: 36px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 h2 {
@@ -24,10 +31,12 @@ h3 {
 
 #header {
   margin-bottom: 32px;
-  text-align: center;
+  text-align: left;
+  background-color: #222;
+  color: #fff;
 }
 
 #footer {
   margin-top: 64px;
-  text-align: center;
+  text-align: left;
 }
